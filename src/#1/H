@@ -1,0 +1,13 @@
+import java.util.*;
+import  java.math.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
+        float b = sc.nextFloat();
+        System.out.println("floor " + (int)a + " / " + (int)b + " = " + (int)Math.floor(a/b));
+        System.out.println("ceil " + (int)a + " / " + (int)b + " = " + (int)Math.ceil(a/b));
+        System.out.println("round " + (int)a + " / " + (int)b + " = " + Math.round(a/b));
+    }
+}
